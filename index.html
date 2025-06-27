@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffee Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Pacifico&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+<header>
+  <div class="container nav-inner">
+    <h1 class="logo">☕ Coffee</h1>
+    <nav class="desk-nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a>
+      <a href="#testimonials">Testimonials</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+    </nav>
+    <button id="burger" class="burger-btn">&#8801;</button>
+  </div>
+  <aside id="panel" class="mobile-panel">
+    <button id="close" class="close-btn">&times;</button>
+    <a href="#home">Home</a><a href="#about">About</a>
+<a href="#menu">Menu</a>
+    <a href="#testimonials">Testimonials</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+  </aside>
+</header>
+
+<main>
+  <section id="home" class="hero container">
+    <div class="hero-text">
+      <h4 class="tag">Best Coffee</h4>
+      <h2 class="headline">Make your day great with our special coffee!</h2>
+      <p>Every bean tells a story and every cup sparks joy.</p>
+      <div class="cta">
+        <button class="btn primary" onclick="document.getElementById('menu').scrollIntoView({behavior:'smooth'})">Order Now</button>
+        <button class="btn outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact Us</button>
+      </div>
+    </div>
+    <div class="hero-img-wrapper">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\7ae18266-454e-4849-97d8-25ba8c06d18b_responsive-coffee-website-html-and-css-images.zip.18b\images\coffee-hero-section.png" alt="Coffee splash cup" class="hero-img">
+    </div>
+  </section>
+<section class="about-section" id= "about">
+  <h2 class="section-title">About Us</h2>
+  <div class="about-flex">
+    <div class="about-img">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\de483dd6-b8c5-48fb-be10-975423366d2f_responsive-coffee-website-html-and-css-images.zip.d2f\images\about-image.jpg" alt="About Us Image">
+    </div>
+    <div class="about-text">
+      <p>
+        Welcome to our cozy coffee shop! We blend tradition with modern flavors to craft
+        the perfect brew just for you. Whether you’re here to grab a quick espresso or unwind
+        with a creamy cappuccino, our team is dedicated to serving you warmth and quality in every cup.
+      </p>
+      <div class="socials">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </section>
+     <section class="menu-section" id="menu">
+  <h2 class="section-title">Our Menu</h2>
+  <div class="menu-list">
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\d662160e-ed9b-424a-9b9a-33bd8dd79d68_responsive-coffee-website-html-and-css-images.zip.d68\images\hot-beverages.png" alt="Hot Beverages">
+      <div class="menu-info">
+        <p class="item-name">Hot Beverages</p>
+        <p class="item-desc">Wide range of steaming hot coffee to make you fresh and light.</p>
+        <p class="item-price">₹120</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\fcb06921-3f45-4cfc-aa6d-dbc4ae708ab5_responsive-coffee-website-html-and-css-images.zip.ab5\images\refreshment.png" alt="Refreshment">
+      <div class="menu-info">
+        <p class="item-name">Refreshment</p>
+        <p class="item-desc">Fruit and icy refreshing drink to make feel refresh.</p>
+        <p class="item-price">₹140</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\fa6d6f13-db91-44ed-9b24-4c7c60f6575b_responsive-coffee-website-html-and-css-images.zip.75b\images\desserts.png" alt="Strawberry Dessert">
+      <div class="menu-info">
+        <p class="item-name">Strawberry Dessert</p>
+        <p class="item-desc">Delicious strawberry ice cream dessert served chilled.</p>
+        <p class="item-price">₹130</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\1b690592-8c92-4b9d-908b-ea0df9c3c69e_responsive-coffee-website-html-and-css-images.zip.69e\images\special-combo.png" alt="Combo Meal">
+      <div class="menu-info">
+        <p class="item-name">Combo Meal</p>
+        <p class="item-desc">Burger, fries, and drink combo to fill your appetite.</p>
+        <p class="item-price">₹199</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\1584e121-bf5e-4188-a7d9-26e66a1a68ba_responsive-coffee-website-html-and-css-images.zip.8ba\images\cold-beverages.png" alt="Cold Beverages">
+      <div class="menu-info">
+        <p class="item-name">Cold Beverages</p>
+        <p class="item-desc">Creamy and frothy cold coffee to make you cool.</p>
+        <p class="item-price">₹150</p>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\1f62c45f-db8a-4c95-8919-667731cc2c6c_responsive-coffee-website-html-and-css-images.zip.c6c\images\burger-frenchfries.png" alt="Burger Frenchfries">
+      <div class="menu-info">
+        <p class="item-name">Burger Frenchfries</p>
+        <p class="item-desc">Crunchy fries and tasty burgers to fill your hunger.</p>
+        <p class="item-price">₹160</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+  <section id="testimonials" class="testimonials container">
+    <h2 class="section-title center">Testimonials</h2>
+    <div class="test-grid">
+      <div class="card"><img src="c:\Users\tbhas\AppData\Local\Temp\422a622f-b0d3-433e-9572-85e9abcb1324_responsive-coffee-website-html-and-css-images.zip.324\images\user-1.jpg" alt=""><p>“"Best decaf I've tried! Smooth and flavorful.Arrived promptly.”</p><span><strong>- Micael Brown</strong></span></div>
+      <div class="card"><img src="c:\Users\tbhas\AppData\Local\Temp\93012446-b61e-47fe-aba7-883f1ad72dd8_responsive-coffee-website-html-and-css-images.zip.dd8\images\user-3.jpg" alt=""><p>“Fantastic mocha flavor.Fresh and aromatic.Quick shipping.”</p><span><strong>- Krish R.</strong></span></div>
+      <div class="card"><img src="c:\Users\tbhas\AppData\Local\Temp\0128a001-fb6b-4ebf-bc29-465974f3d8ad_responsive-coffee-website-html-and-css-images.zip.8ad\images\user-4.jpg" alt=""><p>“Excellent quality!Fresh beans and quick delivery.Highly recommend.”</p><span><strong>- Emily Harris</strong></span></div>
+      <div class="card"><img src="c:\Users\tbhas\AppData\Local\Temp\316e405e-08a8-426a-931a-a8c113e38e57_responsive-coffee-website-html-and-css-images.zip.e57\images\user-2.jpg" alt=""><p>"Great esperesso blend! Smooth and bold flavor.Fast shipping tool.”</p><span><strong>- james Wilson</strong></span></div>
+      <div class="card"><img src="c:\Users\tbhas\AppData\Local\Temp\1f46188a-ebd9-4a67-b553-fec9e7c16362_responsive-coffee-website-html-and-css-images.zip.362\images\user-5.jpg" alt=""><p>"Loved the French roast perfectly balanced and rich.Will order again.”</p><span><strong>- Anthony Thompson</strong></span></div></div>
+  </section>
+
+  <section id="gallery" class="gallery container">
+    <h2 class="section-title center">Gallery</h2>
+    <div class="gallery-grid">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\67cb561b-c2b6-4be8-9966-1e903dc83157_responsive-coffee-website-html-and-css-images.zip.157\images\gallery-1.jpg">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\7ef85808-513d-42ab-b110-4f7618595d77_responsive-coffee-website-html-and-css-images.zip.d77\images\gallery-2.jpg">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\d5528337-1957-46e7-ad06-4936aaf1908f_responsive-coffee-website-html-and-css-images.zip.08f\images\gallery-3.jpg">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\84e275bf-a5b9-4f02-b752-5bb45daacb99_responsive-coffee-website-html-and-css-images.zip.b99\images\gallery-4.jpg">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\b101beea-52a2-4027-abe1-78912057be66_responsive-coffee-website-html-and-css-images.zip.e66\images\gallery-5.jpg">
+      <img src="c:\Users\tbhas\AppData\Local\Temp\e6103e7e-6b41-416b-a8a1-ac588e0af0c6_responsive-coffee-website-html-and-css-images.zip.0c6\images\gallery-6.jpg">
+    </div>
+  </section>
+  <section id="contact" class="contact container">
+    <h2 class="section-title center">Contact Us</h2>
+    <div class="contact-wrapper">
+      <div class="info">
+        <p><i class="fa-solid fa-location-dot"></i> BTM Layout 1st Stage, Bangalore</p>
+        <p><i class="fa-solid fa-envelope"></i> saikavya@coffeecafe.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91&nbsp;6483&nbsp;765&nbsp;328</p>
+         <p><i class="fas fa-clock"></i> <strong>Timings:</strong> Mon - Sun: 8:00 AM – 10:00 PM</p>
+      </div>
+      <form class="form" onsubmit="return false">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Message" required></textarea>
+        <button class="btn primary">Submit</button>
+      </form>
+    </div>
+  </section>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
